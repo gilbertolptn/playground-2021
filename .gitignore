@@ -1,3 +1,5 @@
 target/
 .idea/
 *.iml
+
+# Adicionar exclusão pasta out/
