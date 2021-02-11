@@ -19,6 +19,8 @@ public class ExemploComandos {
             System.out.println("Impar");
         }
 
+
+
         //SWITCH: Considerando as áreas de DDD do RS, a partir do código, informe a região:
         // 51 Região Metropolitana de Porto Alegre.
         // 53 Pelotas e Região.
