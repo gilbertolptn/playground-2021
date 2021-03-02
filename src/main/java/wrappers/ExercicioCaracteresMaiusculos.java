@@ -20,5 +20,24 @@ public class ExercicioCaracteresMaiusculos {
 
         int codePoint = letra + 32;
         return Character.toString(codePoint);
+
+
+
+
+
+
+
+
+
+//        produto.codigo = 1;
+//
+//        produto.setCodigo(1);
+
+
+
+
+
+
+
     }
 }
