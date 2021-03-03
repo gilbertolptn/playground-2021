@@ -17,7 +17,7 @@ public class ExemplosMap {
         capitais.put("RR", "Porto Alegre");
 
         //Substitui pois já existe a chave RS
-        capitais.put("RS", "Canoas");
+        capitais.put("SC", "Blumenau"); //Estava substituindo porto alegre por Canoas ;/
 
         //System.out.println(capitais.get("RS"));
 
