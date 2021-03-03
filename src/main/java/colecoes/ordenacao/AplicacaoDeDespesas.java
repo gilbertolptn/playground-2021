@@ -29,17 +29,25 @@ public class AplicacaoDeDespesas {
 //        despesas.add(despesa4);
 //        despesas.add(despesa5);
 //        despesas.add(despesa6);
+//        Set<Despesa> despesasOrdenadasPorDescricao = new TreeSet<>();
+//        Set<Despesa> despesasOrdenadasPorValor = new TreeSet<>(new DespesaPorValorComparator());
 
         Collections.sort(despesas);//Comparable
 
-        System.out.println("Ordenação por Descrição:");
+        System.out.println("\nOrdenação por Descrição:");
         for (Despesa desp : despesas){
             System.out.println(desp.getDescricaoDetalhada());
         }
 
+        Collections.sort(despesas, Comparator.reverseOrder());//Comparable invertido
+
+        System.out.println("\nOrdenação por Descrição DESC (invertida):");
+        for (Despesa desp : despesas){
+            System.out.println(desp.getDescricaoDetalhada());
+        }
         Collections.sort(despesas, new DespesaPorValorComparator());//Comparator
 
-        System.out.println("Ordenação por Valor:");
+        System.out.println("\nOrdenação por Valor:");
         for (Despesa desp : despesas){
             System.out.println(desp.getDescricaoDetalhada());
         }
