@@ -29,11 +29,11 @@ public class PraticandoTryCatchs {
         File file = new File("E://arquivo.txt");
         //FileReader também é auto-closable
         // pode ser usado o try(), que se chama try-with-resources.
-        try {
+//        try {
             FileReader fr = new FileReader(file);
-        }catch (FileNotFoundException e){
-            System.err.printf("Arquivo não encontrado. Detalhes: %s", e.getMessage());
-        }
+//        }catch (FileNotFoundException e){
+//            System.err.printf("Arquivo não encontrado. Detalhes: %s", e.getMessage());
+//        }
     }
 
     private static void indexOfBounds() {
