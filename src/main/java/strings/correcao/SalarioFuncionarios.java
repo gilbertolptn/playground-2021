@@ -1,4 +1,4 @@
-package exerciciostrings.correcao;
+package strings.correcao;
 
 import java.io.IOException;
 import java.nio.file.Path;

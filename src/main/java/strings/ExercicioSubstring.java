@@ -1,19 +1,18 @@
-package exerciciostrings;
+package strings;
 
 import java.util.Scanner;
 
-public class ExercicioSplit {
+public class ExercicioSubstring {
     public static void main(String[] args) {
 
         System.out.println("Informe um texto:");
         String texto = new Scanner(System.in).nextLine();
 
-        String[] partes = texto.split(" ");
-
-        for (String palavra : partes){
-            System.out.println(palavra);
+        if(texto.length() <= 13){
+            System.out.println(texto);
+        }else{
+            System.out.println(texto.substring(0, 13));
         }
-
 
     }
 }

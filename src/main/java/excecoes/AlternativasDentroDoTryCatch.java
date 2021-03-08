@@ -40,8 +40,7 @@ public class AlternativasDentroDoTryCatch {
             scanner.close();
         }
 
-        //Try-Catch -> Auto closable = chama sozinho o .close().
-
+        //Try-Catch - TRY-WITH-RESOURCES -> Auto closable = chama sozinho o .close().
         try (Scanner scannerClosable = new Scanner(System.in)){
             scanner.nextLine();
             metodoQueLancaExcecao();

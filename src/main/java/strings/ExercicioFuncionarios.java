@@ -1,4 +1,4 @@
-package exerciciostrings;
+package strings;
 
 import java.io.IOException;
 import java.nio.file.Path;

@@ -1,4 +1,4 @@
-package exerciciostrings;
+package strings;
 
 public class ExemplosStrings {
 

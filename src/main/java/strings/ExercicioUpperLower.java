@@ -1,4 +1,4 @@
-package exerciciostrings;
+package strings;
 
 public class ExercicioUpperLower {
     public static void main(String[] args) {
