@@ -1,10 +1,8 @@
 package enumeracoes.exercicio;
 
-import java.util.Locale;
-
 public class ModalidadeCredito {
 
-    public TipoDeCartao obtemTipoDeCartao(double rendaMensal){
+    public TipoCartao obtemTipoDeCartao(double rendaMensal){
 
         String tipoDeCartao;
 
@@ -21,6 +19,6 @@ public class ModalidadeCredito {
             tipoDeCartao = "BLACK";
         }
 
-        return TipoDeCartao.valueOf(tipoDeCartao.toUpperCase().trim());
+        return TipoCartao.valueOf(tipoDeCartao.toUpperCase().trim());
     }
 }
